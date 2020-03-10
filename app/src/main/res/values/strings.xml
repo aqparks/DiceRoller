@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="roll_d4_label">Roll d4</string>
+    <string name="decrease_d4_button">-</string>
+    <string name="increase_d4_button">+</string>
+    <string name="roll_d6_label">Roll d6</string>
+    <string name="decrease_d6_button">-</string>
+    <string name="increase_d6_button">+</string>
+    <string name="roll_d8_label">Roll d8</string>
+    <string name="decrease_d8_button">-</string>
+    <string name="increase_d8_button">+</string>
+    <string name="roll_d10_label">Roll d10</string>
+    <string name="decrease_d10_button">-</string>
+    <string name="increase_d10_button">+</string>
+    <string name="roll_d12_label">Roll d12</string>
+    <string name="decrease_d12_button">-</string>
+    <string name="increase_d12_button">+</string>
+    <string name="roll_d20_label">Roll d20</string>
+    <string name="decrease_d20_button">-</string>
+    <string name="increase_d20_button">+</string>
+</resources>

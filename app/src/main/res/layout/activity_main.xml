@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="2"
+    android:rowCount="3"
+    >
+    <!-- d4 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/d4_roll_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/d4_rolled_values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/decrease_d4_button"
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/decrease_d4_button" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/roll_d4_button"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/roll_d4_label" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/increase_d4_button"
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/increase_d4_button" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <!-- d6 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/d6_roll_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/d6_rolled_values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/decrease_d6_button"
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/decrease_d6_button" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/roll_d6_button"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/roll_d6_label" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/increase_d6_button"
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/increase_d6_button" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <!-- d8 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/d8_roll_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/d8_rolled_values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/decrease_d8_button"
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/decrease_d8_button" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/roll_d8_button"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/roll_d8_label" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/increase_d8_button"
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/increase_d8_button" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <!-- d10 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/d10_roll_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/d10_rolled_values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/decrease_d10_button"
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/decrease_d10_button" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/roll_d10_button"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/roll_d10_label" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/increase_d10_button"
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/increase_d10_button" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <!-- d12 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/d12_roll_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/d12_rolled_values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/decrease_d12_button"
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/decrease_d12_button" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/roll_d12_button"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/roll_d12_label" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/increase_d12_button"
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/increase_d12_button" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <!-- d20 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/d20_roll_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/d20_rolled_values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/decrease_d20_button"
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/decrease_d20_button" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/roll_d20_button"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/roll_d20_label" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/increase_d20_button"
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/increase_d20_button" />
+
+        </LinearLayout>
+    </LinearLayout>
+</GridLayout>
